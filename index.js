@@ -23,10 +23,12 @@ console.log(ins('nome|', 15, '|sobrenome')); // nome|          |sobrenome
 // como inserir em posições negativas ou além do comprimento da string,
 // ou inserir uma string vazia
 
+// del(string, position, quantity), ex.: del('teste', 2, 2) => 'tee'
 //               01234567890123456789
 console.log(del('informatica internet', 4, 7)); // info internet
 console.log(del('informatica internet', 4)); // info
 console.log(del('informatica internet', 0, 12)); // internet
+//               0123
 console.log(del('ifrs', 2, 0)); // ifrs
 console.log(del('ifrs', 2, 1)); // ifs
 console.log(del('ifrs', 2, 2)); // if
